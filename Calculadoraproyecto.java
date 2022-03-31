@@ -32,6 +32,23 @@ public class Calculadoraproyecto {
     System.out.println("La raiz del numero "+num1+" es: "+raiz);
     
     
+    Scanner leer = new Scanner(System.in);
+    
+    System.out.println("Ingrese un numero: ");
+    
+    int numero = leer.nextInt();
+    
+    int factorial = 1;
+    
+    while(numero!=0)
+    {
+    factorial*=numero;
+    numero --;
+    }
+    System.out.println("El factorial es : "+"\n"+factorial);
+    //Thread.sleep(5000);
+    
+    
     }
     
     public static int Potencia(int base,int exponente) {
