@@ -49,6 +49,22 @@ public class Calculadoraproyecto {
     //Thread.sleep(5000);
     
     
+    Scanner lee = new Scanner(System.in);
+    System.out.println("Ingrese un numero Random: ");
+   
+    Random dado = new Random();
+    
+    int numero1 = lee.nextInt();
+    
+    for (int i=0; i<10;i++){
+    
+    
+    numero1=dado.nextInt(10);
+    
+    System.out.println("El resulato es:"+numero1);
+    
+    }
+    
     }
     
     public static int Potencia(int base,int exponente) {
