@@ -24,7 +24,13 @@ public class Calculadoraproyecto {
         
    System.out.println("El resultado es: "+Potencia(base, exponente));
     
-   
+   Scanner nuevo=new Scanner(System.in);
+    
+    System.out.println("Ingrese numero");
+    int num1 = nuevo.nextInt();
+    double raiz = Math.sqrt(num1);
+    System.out.println("La raiz del numero "+num1+" es: "+raiz);
+    
     
     }
     
